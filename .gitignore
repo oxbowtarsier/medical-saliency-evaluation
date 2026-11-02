@@ -1,0 +1,44 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment settings and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code local settings
+.vscode/
+
+# Downloaded datasets and patient images
+data/
+datasets/
+images/
+*.dcm
+
+# Trained / pretrained model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Large experiment logs
+logs/
+runs/
+wandb/
+
+# Keep demonstration results and figures
+# results/ is deliberately NOT ignored
+
+# OS files
+.DS_Store
+Thumbs.db
